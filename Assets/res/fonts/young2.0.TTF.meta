@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: ada6edccf5f928d448bc4c2d8869eb0e
+timeCreated: 1489658079
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: BigYoungBoldGB2.0
+  fontNames:
+  - BigYoungBoldGB2.0
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

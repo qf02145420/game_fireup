@@ -20,6 +20,10 @@ public class UI_Controller : MonoBehaviour {
             }
         }
     }
+    public void ChanageUIFace_LoadScene()
+    {
+        HideAllScene();
+    }
     public void ChanageUIFace_SearchItem()
     {
         HideAllScene();
@@ -37,6 +41,6 @@ public class UI_Controller : MonoBehaviour {
     }
     public void StartGame()
     {
-        ChanageUIFace_SearchItem();
+        ChanageUIFace_LoadScene();
     }
 }
