@@ -14,21 +14,26 @@ public class Request_Test
 }
 
 [Serializable]
-public class Struct_Item
+public class BackpackItem
 {
     public int id; //道具id
     public int count; //数量
-
+    public int type; //道具类型
 }
 
-
 [Serializable]
-public class Response_GetUserData
+public class BackpackData
 {
-    public Struct_Item[] items; //道具列表
-    public int[] methords; //收集的玩法
+    public BackpackItem[] backpack; //道具列表
+    public FoundMethord[] methords; //收集的玩法
     public int status; //状态
     public string m; //错误信息
+}
+
+[Serializable]
+public class FoundMethord
+{
+    public int[] ids; 
 }
 
 /*

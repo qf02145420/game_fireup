@@ -38,12 +38,12 @@ public class HttpRequest : MonoBehaviour {
         }
     }
 
-    public IEnumerator HttpRequest_Post(string protocelname, string json, NetCallBack nc)
+    public IEnumerator HttpRequest_Post(string protocelname, string jsondata, NetCallBack nc)
     {
         string url = GameData.serverUrl + protocelname;
 
         WWWForm wf = new WWWForm();
-        //wf.AddField(("test", new int[5] { 1, 2, 2, 2, 2 });
+        wf.AddField("json",jsondata);
 
         WWW www = new WWW(url, wf);
         yield return www;

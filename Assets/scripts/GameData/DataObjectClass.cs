@@ -16,16 +16,18 @@ public class ScoreData
     public string score_Value;
     public bool score_Up;
     public int score_Rank;
-
-
-    
 }
 public class UserData
 {
     public int userID = 100;
     public ScoreData time_Score;
     public ScoreData fun_Score;
+    public BackpackData backpack = null;
 
+    public void UpdateUserData(BackpackData bd)
+    {
+        backpack = bd;
+    }
 
     public void GetLocalData(string key)
     {
